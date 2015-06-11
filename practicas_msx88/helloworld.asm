@@ -3,7 +3,7 @@
 
 ; mem. datos
 org 1000h
-test DB 0ABCDh
+test DB 1Fh
 
 ; mem. programa
 org 2000h
