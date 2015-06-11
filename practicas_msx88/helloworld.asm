@@ -12,7 +12,8 @@ mov AL, 9
 suma:
   add BX, AL
   dec AL
-  jz suma
-
+  jnz suma
+hlt
+end
 ; la suma de 9+8+7+6+5+4+3+2+1 está en BX
 
