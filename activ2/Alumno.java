@@ -23,7 +23,7 @@ public class Alumno extends Persona
 
     public void agregarMateriaAprobada(Materia mat){
         this.matAprobadas.addNode(mat);
-        this.notaAcumulada += EntradaSalida.leerDouble("Ingrese la nota obtenida en esta materia por " + this.getNombreApellido());
+        this.notaAcumulada += EntradaSalida.leerDouble("Ingrese la nota obtenida en " + mat.getNombre() + " por " + this.getNombreApellido());
     }
     
     public void agregarMateriaCursada(Materia mat){
