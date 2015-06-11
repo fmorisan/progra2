@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=codigo\ nombre\ cargaHoraria
+comment0.target=Materia(int,\ java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Materia\r\n
+comment1.params=
+comment1.target=java.lang.String\ getNombre()
+comment2.params=
+comment2.target=int\ getCodigo()
+numComments=3

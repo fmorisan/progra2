@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=dni\ nombreApellido\ numeroAlumno
+comment0.target=Alumno(int,\ java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Alumno\r\n
+comment1.params=mat
+comment1.target=void\ agregarMateriaAprobada(Materia)
+comment2.params=mat
+comment2.target=void\ agregarMateriaCursada(Materia)
+comment3.params=
+comment3.target=void\ mostrarAnalitico()
+numComments=4
