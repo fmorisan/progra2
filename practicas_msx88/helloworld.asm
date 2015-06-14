@@ -7,13 +7,12 @@ test DB 1Fh
 
 ; mem. programa
 org 2000h
-mov BX, 0
+mov BL, 0
 mov AL, 9
-suma:
-  add BX, AL
-  dec AL
-  jnz suma
+suma:	 add BL, AL
+ 	 dec AL
+ 	 jnz suma
 hlt
 end
-; la suma de todos estos numeros está en BX
+; la suma de todos estos numeros está en BL
 
